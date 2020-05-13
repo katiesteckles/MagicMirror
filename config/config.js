@@ -54,13 +54,11 @@ var config = {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "https://calendar.google.com/calendar/ical/stecks%40gmail.com/public/basic.ics"					}
-				]
+						url: "https://calendar.google.com/calendar/ical/stecks%40gmail.com/public/basic.ics"			
+					}
+				],
+				maximumNumberOfDays: 7
 			}
-		},
-		{
-			module: "compliments",
-			position: "lower_third"
 		},
 		{
 			module: "currentweather",
